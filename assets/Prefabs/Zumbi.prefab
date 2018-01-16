@@ -359,7 +359,8 @@
     "_movimentacao": null,
     "_controleAnimacao": null,
     "_gameOver": null,
-    "_tempoRestanteParaVagar": "Float"
+    "_tempoRestanteParaVagar": "Float",
+    "_atacando": "Boolean"
   },
   {
     "__type__": "9d4cb8EmZNF+Ih0N1m0amIH",
@@ -451,7 +452,10 @@
       "__id__": 1
     },
     "_enabled": true,
-    "_animacao": null
+    "anguloDiagonal": "20",
+    "_animacao": null,
+    "_senoMinimo": "Float",
+    "_cossenoMinimo": "Float"
   },
   {
     "__type__": "cc.BoxCollider",

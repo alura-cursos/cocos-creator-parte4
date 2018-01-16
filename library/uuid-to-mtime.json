@@ -225,7 +225,7 @@
     "relativePath": "Animacoes"
   },
   "3264c940-0da5-4fee-befe-188a8170db54": {
-    "asset": 1521721562507,
+    "asset": 1515173000090,
     "meta": 1512991333867,
     "relativePath": "Animacoes\\Inimigo"
   },
@@ -355,7 +355,7 @@
     "relativePath": "Animacoes\\Perosnagem\\ParadoEsquerdaBaixo.anim"
   },
   "139bb71b-a772-4f24-b06c-1a85bad78e13": {
-    "asset": 1521721567312,
+    "asset": 1515169797543,
     "meta": 1512991333633,
     "relativePath": "Imagens"
   },
@@ -370,8 +370,8 @@
     "relativePath": "Imagens\\Tiro.png"
   },
   "b1b819d6-754e-4a9b-a9d2-8a24bff4c720": {
-    "asset": 1515177473212,
-    "meta": 1515177473258,
+    "asset": 1515506585314,
+    "meta": 1515506585344,
     "relativePath": "Jogo.fire"
   },
   "609766a9-58bf-481f-a4df-d35a0f6eb813": {
@@ -390,19 +390,14 @@
     "relativePath": "Scripts"
   },
   "65bf74ea-f0ad-46af-84a6-e29f55a14ec1": {
-    "asset": 1515173774696,
-    "meta": 1515173774717,
+    "asset": 1515506621809,
+    "meta": 1515506621821,
     "relativePath": "Prefabs\\Zumbi.prefab"
   },
   "7fefff2d-b400-4ab6-bced-09c9b8bd7d30": {
     "asset": 1512991356961,
     "meta": 1512991392799,
     "relativePath": "Scripts\\ColisaoCenario.js"
-  },
-  "b89be33c-b32e-4302-8bce-25db9aed4b16": {
-    "asset": 1512991356992,
-    "meta": 1512991392814,
-    "relativePath": "Scripts\\ControleDeAnimacao.js"
   },
   "9d4cbf04-9993-45f8-8874-3759b46a6207": {
     "asset": 1512991357133,
@@ -720,12 +715,12 @@
     "relativePath": "Atlas\\InvasaoZumbi-09.png"
   },
   "3dca5392-e46e-4c70-8bbe-8a4ea12e3177": {
-    "asset": 1515172968132,
+    "asset": 1515172974775,
     "meta": 1515172968136,
     "relativePath": "Animacoes\\Inimigo\\Andar"
   },
   "e366f2d1-f1e0-4371-bbfa-d5ff20b4b43c": {
-    "asset": 1515172979627,
+    "asset": 1515173087425,
     "meta": 1515172979630,
     "relativePath": "Animacoes\\Inimigo\\Atacar"
   },
@@ -760,8 +755,8 @@
     "relativePath": "Animacoes\\Inimigo\\Atacar\\AtacarDireitaBaixo.anim"
   },
   "2d3b1736-2a58-4dad-8952-135203fcff6a": {
-    "asset": 1515175671542,
-    "meta": 1515175671572,
+    "asset": 1515520275095,
+    "meta": 1515520275133,
     "relativePath": "Animacoes\\Inimigo\\Atacar\\AtacarEsquerdaCima.anim"
   },
   "fa427f8c-f932-41e8-8fc1-3e9c303f20a0": {
@@ -778,5 +773,10 @@
     "asset": 1515176713991,
     "meta": 1515176719310,
     "relativePath": "Scripts\\Jogador.js"
+  },
+  "b89be33c-b32e-4302-8bce-25db9aed4b16": {
+    "asset": 1515506591864,
+    "meta": 1515506593431,
+    "relativePath": "Scripts\\ControleDeAnimacao.js"
   }
 }
