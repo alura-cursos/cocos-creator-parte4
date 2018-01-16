@@ -11,11 +11,18 @@ cc.Class({
         alvo: cc.Node,
         dano: cc.Float,
         tempoAtaque: cc.Float,
+        distanciaPerseguir: cc.Float,
+        distanciaAtaque: cc.Float,
+        tempoVagar: cc.Float,
+        direcaoVagar: cc.Vec2,
+        vidaMaxima: cc.Float,
+
+        _vidaAtual: cc.Float,
         _cronometroAtaque: cc.Float,
         _movimentacao: cc.Component,
         _controleAnimacao: cc.Component,
         _gameOver: cc.Node,
-        distanciaAtaque: cc.Float
+        _tempoRestanteParaVagar: cc.Float
 
     },
 
@@ -25,25 +32,53 @@ cc.Class({
         this.audioMorte = this.getComponent(cc.AudioSource);
 
         this.alvo = cc.find("Personagens/Personagem");
-        this.node.on("SofrerDano", this.morrer, this);
+        this.node.on("SofrerDano", this.sofrerDano, this);
         this._cronometroAtaque = this.tempoAtaque;
+        this._tempoRestanteParaVagar = this.tempoVagar;
+        this.direcaoVagar = cc.Vec2.UP;
+
+        this._vidaAtual = this.vidaMaxima;
     },
 
     update: function update(deltaTime) {
-        var direcao = this.alvo.position.sub(this.node.position);
-        var distancia = direcao.mag();
+        this._cronometroAtaque -= deltaTime;
+        this._tempoRestanteParaVagar -= deltaTime;
+        var direcaoAlvo = this.alvo.position.sub(this.node.position);
+        var distancia = direcaoAlvo.mag();
+
+        if (distancia < this.distanciaAtaque && this._cronometroAtaque < 0) {
+            this.atacar();
+        } else if (distancia < this.distanciaPerseguir) {
+            this.andar(direcaoAlvo);
+        } else {
+            this.vagar();
+        }
+    },
+    andar: function andar(direcao) {
         this._controleAnimacao.mudaAnimacao(direcao, "Andar");
         this._movimentacao.setDirecao(direcao);
         this._movimentacao.andarPraFrente();
-
-        this._cronometroAtaque -= deltaTime;
-
-        if (distancia < this.distanciaAtaque && this._cronometroAtaque < 0) {
-            this.alvo.emit("SofreDano", { dano: this.dano });
-            this._cronometroAtaque = this.tempoAtaque;
-        }
+    },
+    atacar: function atacar() {
+        this.alvo.emit("SofreDano", { dano: this.dano });
+        this._cronometroAtaque = this.tempoAtaque;
     },
 
+    vagar: function vagar() {
+        if (this._tempoRestanteParaVagar < 0) {
+            this.direcaoVagar = new cc.Vec2(Math.random() - 0.5, Math.random() - 0.5);
+            this._tempoRestanteParaVagar = this.tempoVagar;
+        }
+        this.andar(this.direcaoVagar);
+    },
+    sofrerDano: function sofrerDano(evento) {
+        this._vidaAtual -= evento.detail.dano;
+        this.node.emit("atualizaVida", { vidaAtual: this._vidaAtual,
+            vidaMaxima: this.vidaMaxima });
+        if (this._vidaAtual < 0) {
+            this.morrer();
+        }
+    },
     morrer: function morrer() {
         var eventoMorte = new cc.Event.EventCustom("ZumbiMorreu", true);
         this.node.dispatchEvent(eventoMorte);

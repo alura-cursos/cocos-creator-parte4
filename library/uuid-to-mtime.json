@@ -220,12 +220,12 @@
     "relativePath": "prefab\\webview.prefab"
   },
   "60b72238-1630-4381-9d85-ea738e1881f8": {
-    "asset": 1515161672190,
+    "asset": 1521721562507,
     "meta": 1512991333617,
     "relativePath": "Animacoes"
   },
   "3264c940-0da5-4fee-befe-188a8170db54": {
-    "asset": 1515161672190,
+    "asset": 1521721562507,
     "meta": 1512991333867,
     "relativePath": "Animacoes\\Inimigo"
   },
@@ -270,7 +270,7 @@
     "relativePath": "Animacoes\\Inimigo\\AndarEsquerdaCima.anim"
   },
   "1d52503c-ec71-46db-a6b8-1769c14c6bd2": {
-    "asset": 1515161672269,
+    "asset": 1521721562639,
     "meta": 1512991333898,
     "relativePath": "Animacoes\\Perosnagem"
   },
@@ -355,12 +355,12 @@
     "relativePath": "Animacoes\\Perosnagem\\ParadoEsquerdaBaixo.anim"
   },
   "139bb71b-a772-4f24-b06c-1a85bad78e13": {
-    "asset": 1515161675574,
+    "asset": 1521721567312,
     "meta": 1512991333633,
     "relativePath": "Imagens"
   },
   "7a730362-72ed-4a7c-ba2d-af00fa6619ab": {
-    "asset": 1515161672356,
+    "asset": 1521721562908,
     "meta": 1512991335517,
     "relativePath": "Imagens\\Cenario"
   },
@@ -390,12 +390,12 @@
     "relativePath": "Imagens\\Cenario\\Motel.png"
   },
   "d3fc2ccf-c9a4-4700-a7de-5217ea4531f6": {
-    "asset": 1515161675402,
+    "asset": 1521721567096,
     "meta": 1512991335533,
     "relativePath": "Imagens\\Personagem"
   },
   "a3825c11-4b34-4f26-a449-2d4869b1e785": {
-    "asset": 1515161672593,
+    "asset": 1521721563224,
     "meta": 1512991335798,
     "relativePath": "Imagens\\Personagem\\AndarBaixo"
   },
@@ -570,7 +570,7 @@
     "relativePath": "Imagens\\Personagem\\AndarBaixo\\walk_bottom00965.png"
   },
   "c9759a34-a305-4a67-97c8-c4c8931c4493": {
-    "asset": 1515161672640,
+    "asset": 1521721563308,
     "meta": 1512991335814,
     "relativePath": "Imagens\\Personagem\\AndarCima"
   },
@@ -635,7 +635,7 @@
     "relativePath": "Imagens\\Personagem\\AndarCima\\walk_top00010.png"
   },
   "b2d07894-7bda-4308-aa81-9fc68505df04": {
-    "asset": 1515161672686,
+    "asset": 1521721563393,
     "meta": 1512991335830,
     "relativePath": "Imagens\\Personagem\\AndarDireita"
   },
@@ -690,7 +690,7 @@
     "relativePath": "Imagens\\Personagem\\AndarDireita\\walk_left00010.png"
   },
   "f9591574-d17c-4498-92dd-efdd8742bb89": {
-    "asset": 1515161672869,
+    "asset": 1521721563671,
     "meta": 1512991335845,
     "relativePath": "Imagens\\Personagem\\AndarDireitaBaixo"
   },
@@ -865,7 +865,7 @@
     "relativePath": "Imagens\\Personagem\\AndarDireitaBaixo\\walk_bottom_45_r_00723.png"
   },
   "b52f5371-69af-4859-adf3-9b9b43da5206": {
-    "asset": 1515161673324,
+    "asset": 1521721564509,
     "meta": 1512991335845,
     "relativePath": "Imagens\\Personagem\\AndarDireitaCima"
   },
@@ -1310,7 +1310,7 @@
     "relativePath": "Imagens\\Personagem\\AndarDireitaCima\\player_walk_d_r00086.png"
   },
   "aab075de-33f4-419f-a5fc-554e30c2e891": {
-    "asset": 1515161673418,
+    "asset": 1521721564572,
     "meta": 1512991335861,
     "relativePath": "Imagens\\Personagem\\AndarEsquerda"
   },
@@ -1375,7 +1375,7 @@
     "relativePath": "Imagens\\Personagem\\AndarEsquerda\\walk_left_100009.png"
   },
   "13dd5387-e48c-4a97-9880-40508fb92b8e": {
-    "asset": 1515161673699,
+    "asset": 1521721564772,
     "meta": 1512991335876,
     "relativePath": "Imagens\\Personagem\\AndarEsquerdaBaixo"
   },
@@ -1540,7 +1540,7 @@
     "relativePath": "Imagens\\Personagem\\AndarEsquerdaBaixo\\walk_bottom_45_L01145.png"
   },
   "65c6508e-8691-416d-a6b8-280f50c82098": {
-    "asset": 1515161674246,
+    "asset": 1521721565741,
     "meta": 1512991335892,
     "relativePath": "Imagens\\Personagem\\AndarEsquerdaCima"
   },
@@ -1995,7 +1995,7 @@
     "relativePath": "Imagens\\Personagem\\AndarEsquerdaCima\\player_walk_d_l_00087.png"
   },
   "a2cb364b-0978-4b6a-bb18-2f09f62f1dea": {
-    "asset": 1515161674418,
+    "asset": 1521721565942,
     "meta": 1512991335908,
     "relativePath": "Imagens\\Personagem\\ParadoBaixo"
   },
@@ -2170,7 +2170,7 @@
     "relativePath": "Imagens\\Personagem\\ParadoBaixo\\idle_bottom00865.png"
   },
   "7239826b-39ab-49bf-b20b-792dfda462a7": {
-    "asset": 1515161674543,
+    "asset": 1521721566074,
     "meta": 1512991335923,
     "relativePath": "Imagens\\Personagem\\ParadoCima"
   },
@@ -2295,7 +2295,7 @@
     "relativePath": "Imagens\\Personagem\\ParadoCima\\idle_top00022.png"
   },
   "c04b99c5-df49-432a-a961-14f2fffef47b": {
-    "asset": 1515161674730,
+    "asset": 1521721566296,
     "meta": 1512991335923,
     "relativePath": "Imagens\\Personagem\\ParadoCimaDireita"
   },
@@ -2470,7 +2470,7 @@
     "relativePath": "Imagens\\Personagem\\ParadoCimaDireita\\idle_top_45_degress_00033.png"
   },
   "633de1cb-8e09-4df0-a587-f266631607b1": {
-    "asset": 1515161674902,
+    "asset": 1521721566495,
     "meta": 1512991335939,
     "relativePath": "Imagens\\Personagem\\ParadoCimaEsquerda"
   },
@@ -2635,7 +2635,7 @@
     "relativePath": "Imagens\\Personagem\\ParadoCimaEsquerda\\idle_top_45_L01469.png"
   },
   "ffe0a6f9-bce4-4b0c-ab9d-578169364190": {
-    "asset": 1515161675090,
+    "asset": 1521721566696,
     "meta": 1512991335955,
     "relativePath": "Imagens\\Personagem\\ParadoDireita"
   },
@@ -2810,7 +2810,7 @@
     "relativePath": "Imagens\\Personagem\\ParadoDireita\\idle_right00470.png"
   },
   "6dc3f77a-f595-48e2-ad23-c7400718be28": {
-    "asset": 1515161675246,
+    "asset": 1521721566912,
     "meta": 1512991335970,
     "relativePath": "Imagens\\Personagem\\ParadoDireitaBaixo"
   },
@@ -2985,7 +2985,7 @@
     "relativePath": "Imagens\\Personagem\\ParadoDireitaBaixo\\idle_bottom_45_r00653.png"
   },
   "dcc83f08-87f8-440d-91b5-4ba3a3d5bfaa": {
-    "asset": 1515161675402,
+    "asset": 1521721567096,
     "meta": 1512991335986,
     "relativePath": "Imagens\\Personagem\\ParadoEsquerda"
   },
@@ -3150,7 +3150,7 @@
     "relativePath": "Imagens\\Personagem\\ParadoEsquerda\\idle_left01278.png"
   },
   "9d8e0272-d3b8-475f-98ca-50980c91371b": {
-    "asset": 1515161675574,
+    "asset": 1521721567312,
     "meta": 1512991335986,
     "relativePath": "Imagens\\Personagem\\ParadoEsquerdaBaixo"
   },
@@ -3315,7 +3315,7 @@
     "relativePath": "Imagens\\Personagem\\ParadoEsquerdaBaixo\\idle_bottom_45_L01075.png"
   },
   "945e1a47-26ce-4f81-9a7d-f264fc95f95d": {
-    "asset": 1515161677012,
+    "asset": 1521721568961,
     "meta": 1512991335642,
     "relativePath": "Imagens\\Zumbi"
   },
@@ -3330,7 +3330,7 @@
     "relativePath": "Imagens\\Zumbi.png"
   },
   "7db88370-de7c-42ed-9064-738a3a4b3768": {
-    "asset": 1515161675777,
+    "asset": 1521721567544,
     "meta": 1512991350459,
     "relativePath": "Imagens\\Zumbi\\AndarBaixo"
   },
@@ -3495,7 +3495,7 @@
     "relativePath": "Imagens\\Zumbi\\AndarBaixo\\walk_front00031.png"
   },
   "1526e674-760a-4bad-a9fe-238dfe63ddf4": {
-    "asset": 1515161675856,
+    "asset": 1521721567644,
     "meta": 1512991350475,
     "relativePath": "Imagens\\Zumbi\\AndarCima"
   },
@@ -3570,7 +3570,7 @@
     "relativePath": "Imagens\\Zumbi\\AndarCima\\walk_top_00012.png"
   },
   "ec6ce4d3-2928-4a30-81ae-3cd43917a401": {
-    "asset": 1515161675965,
+    "asset": 1521721567760,
     "meta": 1512991350490,
     "relativePath": "Imagens\\Zumbi\\AndarDireita"
   },
@@ -3675,7 +3675,7 @@
     "relativePath": "Imagens\\Zumbi\\AndarDireita\\walk_right00018.png"
   },
   "da0b211c-2b65-4dcd-95ca-c9553e947572": {
-    "asset": 1515161676262,
+    "asset": 1521721568097,
     "meta": 1512991350490,
     "relativePath": "Imagens\\Zumbi\\AndarDireitaBaixo"
   },
@@ -3950,7 +3950,7 @@
     "relativePath": "Imagens\\Zumbi\\AndarDireitaBaixo\\walk_45_front_R_00052.png"
   },
   "73a22b13-139c-4694-966e-d105fc422f70": {
-    "asset": 1515161676434,
+    "asset": 1521721568298,
     "meta": 1512991350506,
     "relativePath": "Imagens\\Zumbi\\AndarDireitaCima"
   },
@@ -4125,7 +4125,7 @@
     "relativePath": "Imagens\\Zumbi\\AndarDireitaCima\\walk_top_45_R_00031.png"
   },
   "37ae7513-d991-40a9-9881-df67fa4f935f": {
-    "asset": 1515161676543,
+    "asset": 1521721568429,
     "meta": 1512991350521,
     "relativePath": "Imagens\\Zumbi\\AndarEsquerda"
   },
@@ -4230,7 +4230,7 @@
     "relativePath": "Imagens\\Zumbi\\AndarEsquerda\\walk_left01161.png"
   },
   "b4def726-721a-4ce4-8ff2-8b455567f74c": {
-    "asset": 1515161676824,
+    "asset": 1521721568761,
     "meta": 1512991350537,
     "relativePath": "Imagens\\Zumbi\\AndarEsquerdaBaixo"
   },
@@ -4505,7 +4505,7 @@
     "relativePath": "Imagens\\Zumbi\\AndarEsquerdaBaixo\\walk_45_front_l01003.png"
   },
   "c53163af-fab0-42ba-bd00-e33ef63f5b30": {
-    "asset": 1515161676996,
+    "asset": 1521721568961,
     "meta": 1512991350553,
     "relativePath": "Imagens\\Zumbi\\AndarEsquerdaCima"
   },
@@ -4670,7 +4670,7 @@
     "relativePath": "Imagens\\Zumbi\\AndarEsquerdaCima\\walk_top_45_l00031.png"
   },
   "f979ce0e-6983-4026-b2b0-698b7ea9c6df": {
-    "asset": 1515161677168,
+    "asset": 1521721569161,
     "meta": 1512991350553,
     "relativePath": "Imagens\\Zumbi\\ParadoFrente"
   },
@@ -4825,8 +4825,8 @@
     "relativePath": "Imagens\\Zumbi\\ParadoFrente\\idle_front00028.png"
   },
   "b1b819d6-754e-4a9b-a9d2-8a24bff4c720": {
-    "asset": 1518955436581,
-    "meta": 1518955436599,
+    "asset": 1515161647699,
+    "meta": 1515161647724,
     "relativePath": "Jogo.fire"
   },
   "11b87520-494e-4168-9ee4-2a3e9c756375": {
@@ -4835,7 +4835,7 @@
     "relativePath": "Imagens\\Zumbi\\ParadoFrente\\idle_front00029.png"
   },
   "609766a9-58bf-481f-a4df-d35a0f6eb813": {
-    "asset": 1515161677168,
+    "asset": 1521721569177,
     "meta": 1512991333679,
     "relativePath": "Prefabs"
   },
@@ -4845,13 +4845,13 @@
     "relativePath": "Prefabs\\Tiro.prefab"
   },
   "66dfbd53-7703-4d8d-995e-f4137a9a904e": {
-    "asset": 1515161677262,
+    "asset": 1515072629427,
     "meta": 1512991333695,
     "relativePath": "Scripts"
   },
   "65bf74ea-f0ad-46af-84a6-e29f55a14ec1": {
-    "asset": 1518955332494,
-    "meta": 1518955332508,
+    "asset": 1515161337071,
+    "meta": 1515161337095,
     "relativePath": "Prefabs\\Zumbi.prefab"
   },
   "7fefff2d-b400-4ab6-bced-09c9b8bd7d30": {
@@ -4905,7 +4905,7 @@
     "relativePath": "Audio\\SomTiro.ogg"
   },
   "124b8a91-2d1c-4788-b241-2929b170f2b2": {
-    "asset": 1515161672301,
+    "asset": 1521721562755,
     "meta": 1513084730537,
     "relativePath": "Audio"
   },
@@ -4954,14 +4954,24 @@
     "meta": 1515156986085,
     "relativePath": "Scripts\\Jogador.js"
   },
+  "c57668a5-77cf-46ff-a2cd-feb1b0b3ef86": {
+    "asset": 1515160141191,
+    "meta": 1515160151381,
+    "relativePath": "Scripts\\Tiro.js"
+  },
+  "ff737ab4-2b73-4a65-b778-de3a0a737579": {
+    "asset": 1515160214072,
+    "meta": 1515160214089,
+    "relativePath": "Prefabs\\TiroMaisForte.prefab"
+  },
   "db00ef83-28a7-4f8e-9ee9-6a20ef1db437": {
-    "asset": 1513171991047,
-    "meta": 1518955278603,
+    "asset": 1515161319545,
+    "meta": 1515161333331,
     "relativePath": "Scripts\\Inimigo.js"
   },
-  "c57668a5-77cf-46ff-a2cd-feb1b0b3ef86": {
-    "asset": 1513170390585,
-    "meta": 1518955405325,
-    "relativePath": "Scripts\\Tiro.js"
+  "de0cbe67-db28-4e61-9038-5f9e26d85666": {
+    "asset": 1515161450843,
+    "meta": 1515161453463,
+    "relativePath": "Scripts\\BarraDeVidaInimigo.js"
   }
 }
