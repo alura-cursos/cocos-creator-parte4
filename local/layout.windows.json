@@ -57,7 +57,7 @@
                 "width": 760
               },
               {
-                "active": 0,
+                "active": 2,
                 "children": [
                   "console",
                   "node-library",
@@ -86,5 +86,12 @@
       ]
     }
   },
-  "panels": {}
+  "panels": {
+    "timeline.event": {
+      "x": 355,
+      "y": 111,
+      "width": 416,
+      "height": 439
+    }
+  }
 }
