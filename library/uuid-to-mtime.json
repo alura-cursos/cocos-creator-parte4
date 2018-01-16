@@ -220,57 +220,57 @@
     "relativePath": "prefab\\webview.prefab"
   },
   "60b72238-1630-4381-9d85-ea738e1881f8": {
-    "asset": 1515586243729,
+    "asset": 1521721562507,
     "meta": 1512991333617,
     "relativePath": "Animacoes"
   },
   "3264c940-0da5-4fee-befe-188a8170db54": {
-    "asset": 1515586243707,
+    "asset": 1521721562507,
     "meta": 1512991333867,
     "relativePath": "Animacoes\\Inimigo"
   },
   "7c2ba684-1422-4349-8946-c6c28e4186a8": {
     "asset": 1515172611310,
     "meta": 1515172611319,
-    "relativePath": "Animacoes\\Inimigo\\AndarBaixo.anim"
+    "relativePath": "Animacoes\\Inimigo\\Andar\\AndarBaixo.anim"
   },
   "3f3cc8bf-12fe-45e7-8b90-80894b00474c": {
     "asset": 1515172589189,
     "meta": 1515172589206,
-    "relativePath": "Animacoes\\Inimigo\\AndarCima.anim"
+    "relativePath": "Animacoes\\Inimigo\\Andar\\AndarCima.anim"
   },
   "5adb0d6c-567d-4e4f-91b7-6dd98c5086b0": {
     "asset": 1515172688678,
     "meta": 1515172688687,
-    "relativePath": "Animacoes\\Inimigo\\AndarDireita.anim"
+    "relativePath": "Animacoes\\Inimigo\\Andar\\AndarDireita.anim"
   },
   "e040fa14-377d-4f9b-8dee-6845273e349b": {
     "asset": 1515172637815,
     "meta": 1515172637823,
-    "relativePath": "Animacoes\\Inimigo\\AndarDireitaBaixo.anim"
+    "relativePath": "Animacoes\\Inimigo\\Andar\\AndarDireitaBaixo.anim"
   },
   "3b11b63a-c79a-466a-93e9-2f5f4b96ce8a": {
     "asset": 1515172663902,
     "meta": 1515172663911,
-    "relativePath": "Animacoes\\Inimigo\\AndarDireitaCima.anim"
+    "relativePath": "Animacoes\\Inimigo\\Andar\\AndarDireitaCima.anim"
   },
   "c7bbb310-96c2-4718-a82b-a0d2de06f01e": {
     "asset": 1515172779990,
     "meta": 1515172780000,
-    "relativePath": "Animacoes\\Inimigo\\AndarEsquerda.anim"
+    "relativePath": "Animacoes\\Inimigo\\Andar\\AndarEsquerda.anim"
   },
   "3ecad944-f223-434f-a968-fdea8ab97902": {
     "asset": 1515172737011,
     "meta": 1515172737021,
-    "relativePath": "Animacoes\\Inimigo\\AndarEsquerdaBaixo.anim"
+    "relativePath": "Animacoes\\Inimigo\\Andar\\AndarEsquerdaBaixo.anim"
   },
   "f20cc5f4-b0ae-4678-aede-8f96490de922": {
     "asset": 1515172756559,
     "meta": 1515172756569,
-    "relativePath": "Animacoes\\Inimigo\\AndarEsquerdaCima.anim"
+    "relativePath": "Animacoes\\Inimigo\\Andar\\AndarEsquerdaCima.anim"
   },
   "1d52503c-ec71-46db-a6b8-1769c14c6bd2": {
-    "asset": 1515586243760,
+    "asset": 1521721562639,
     "meta": 1512991333898,
     "relativePath": "Animacoes\\Perosnagem"
   },
@@ -355,7 +355,7 @@
     "relativePath": "Animacoes\\Perosnagem\\ParadoEsquerdaBaixo.anim"
   },
   "139bb71b-a772-4f24-b06c-1a85bad78e13": {
-    "asset": 1515586243892,
+    "asset": 1521721567312,
     "meta": 1512991333633,
     "relativePath": "Imagens"
   },
@@ -370,12 +370,12 @@
     "relativePath": "Imagens\\Tiro.png"
   },
   "b1b819d6-754e-4a9b-a9d2-8a24bff4c720": {
-    "asset": 1515586887616,
-    "meta": 1515586887642,
+    "asset": 1515177473212,
+    "meta": 1515177473258,
     "relativePath": "Jogo.fire"
   },
   "609766a9-58bf-481f-a4df-d35a0f6eb813": {
-    "asset": 1515586243892,
+    "asset": 1515160214087,
     "meta": 1512991333679,
     "relativePath": "Prefabs"
   },
@@ -385,7 +385,7 @@
     "relativePath": "Prefabs\\Tiro.prefab"
   },
   "66dfbd53-7703-4d8d-995e-f4137a9a904e": {
-    "asset": 1515586243929,
+    "asset": 1515161062628,
     "meta": 1512991333695,
     "relativePath": "Scripts"
   },
@@ -445,7 +445,7 @@
     "relativePath": "Audio\\SomTiro.ogg"
   },
   "124b8a91-2d1c-4788-b241-2929b170f2b2": {
-    "asset": 1515586243876,
+    "asset": 1521721562755,
     "meta": 1513084730537,
     "relativePath": "Audio"
   },
@@ -505,7 +505,7 @@
     "relativePath": "Scripts\\BarraDeVidaInimigo.js"
   },
   "fc45f1fd-a59b-47cb-ad96-b2aabf6b1289": {
-    "asset": 1515586243876,
+    "asset": 1515169592462,
     "meta": 1515169592086,
     "relativePath": "Atlas"
   },
@@ -719,14 +719,64 @@
     "meta": 1515169594318,
     "relativePath": "Atlas\\InvasaoZumbi-09.png"
   },
+  "3dca5392-e46e-4c70-8bbe-8a4ea12e3177": {
+    "asset": 1515172968132,
+    "meta": 1515172968136,
+    "relativePath": "Animacoes\\Inimigo\\Andar"
+  },
+  "e366f2d1-f1e0-4371-bbfa-d5ff20b4b43c": {
+    "asset": 1515172979627,
+    "meta": 1515172979630,
+    "relativePath": "Animacoes\\Inimigo\\Atacar"
+  },
+  "aca99de2-b72c-4522-bf7e-c4152f2312bb": {
+    "asset": 1515175609929,
+    "meta": 1515175609973,
+    "relativePath": "Animacoes\\Inimigo\\Atacar\\AtacarCima.anim"
+  },
+  "bf279471-b330-41aa-93e6-e09a85936c4b": {
+    "asset": 1515175593426,
+    "meta": 1515175593446,
+    "relativePath": "Animacoes\\Inimigo\\Atacar\\AtacarBaixo.anim"
+  },
+  "50c911f2-0e81-4c3c-b450-b6024f089ce2": {
+    "asset": 1515175643107,
+    "meta": 1515175643114,
+    "relativePath": "Animacoes\\Inimigo\\Atacar\\AtacarDireita.anim"
+  },
+  "b4114e89-b65d-461b-9a29-2efc95a4163b": {
+    "asset": 1515175683438,
+    "meta": 1515175683444,
+    "relativePath": "Animacoes\\Inimigo\\Atacar\\AtacarEsquerda.anim"
+  },
+  "25343085-9839-4607-ab5b-4afa938559f0": {
+    "asset": 1515175562026,
+    "meta": 1515175562066,
+    "relativePath": "Animacoes\\Inimigo\\Atacar\\AtacarDireitaCima.anim"
+  },
+  "fd0b8868-eb7b-4d3c-bc41-57368ec3b7f3": {
+    "asset": 1515175625048,
+    "meta": 1515175625056,
+    "relativePath": "Animacoes\\Inimigo\\Atacar\\AtacarDireitaBaixo.anim"
+  },
+  "2d3b1736-2a58-4dad-8952-135203fcff6a": {
+    "asset": 1515175671542,
+    "meta": 1515175671572,
+    "relativePath": "Animacoes\\Inimigo\\Atacar\\AtacarEsquerdaCima.anim"
+  },
+  "fa427f8c-f932-41e8-8fc1-3e9c303f20a0": {
+    "asset": 1515175656941,
+    "meta": 1515175656950,
+    "relativePath": "Animacoes\\Inimigo\\Atacar\\AtacarEsquerdaBaixo.anim"
+  },
   "db00ef83-28a7-4f8e-9ee9-6a20ef1db437": {
-    "asset": 1515161319545,
-    "meta": 1515586334962,
+    "asset": 1515175455414,
+    "meta": 1515175467565,
     "relativePath": "Scripts\\Inimigo.js"
   },
   "d3299227-3ff8-40a0-a464-eadc34169210": {
-    "asset": 1515156978713,
-    "meta": 1515586334965,
+    "asset": 1515176713991,
+    "meta": 1515176719310,
     "relativePath": "Scripts\\Jogador.js"
   }
 }

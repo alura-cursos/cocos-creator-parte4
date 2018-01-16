@@ -19,8 +19,8 @@ cc.Class({
         _canvas: cc.Canvas,
         _camera: cc.Node,
         _posicaoArma: cc.Node,
-        _audioTiro: cc.AudioSource
-
+        _audioTiro: cc.AudioSource,
+        _direcaoMouse: cc.Vec2
     },
 
     onLoad: function onLoad() {
@@ -30,11 +30,12 @@ cc.Class({
         this._audioTiro = this.getComponent(cc.AudioSource);
         this._canvas = cc.find("Canvas");
         this._canvas.on("mousedown", this.atirar, this);
-        this._canvas.on("mousemove", this.mudarDirecaoDaAnimcao, this);
+        this._canvas.on("mousemove", this.calcularDirecaoMouse, this);
         this._camera = cc.find("Camera");
         this.node.on("SofreDano", this.sofrerDano, this);
         this._vidaAtual = this.vidaMaxima;
         this._posicaoArma = this.node.children[0];
+        this._direcaoMouse = cc.Vec2.UP;
     },
 
     update: function update(deltaTime) {
@@ -56,6 +57,12 @@ cc.Class({
         if (Teclado.estaPressionada(cc.KEY.w)) {
             this._direcao.y += 1;
         }
+
+        this.atualizaAnimacao();
+    },
+
+    atualizaAnimacao: function atualizaAnimacao() {
+        this._controleAnimacao.mudaAnimacao(this._direcaoMouse, this.estadoAtual());
     },
 
     sofrerDano: function sofrerDano(evento) {
@@ -69,15 +76,14 @@ cc.Class({
         }
     },
 
-    mudarDirecaoDaAnimcao: function mudarDirecaoDaAnimcao(event) {
-        var direcao = this.calcularDirecaoMouse(event);
+    estadoAtual: function estadoAtual(event) {
         var estado = void 0;
         if (this._direcao.mag() == 0) {
             estado = "Parado";
         } else {
             estado = "Andar";
         }
-        this._controleAnimacao.mudaAnimacao(direcao, estado);
+        return estado;
     },
 
     calcularDirecaoMouse: function calcularDirecaoMouse(event) {
@@ -87,11 +93,11 @@ cc.Class({
         var posicaoJogadora = this._camera.convertToNodeSpaceAR(this.node.position);
 
         var direcao = posicaoMouse.sub(posicaoJogadora);
-        return direcao;
+        this._direcaoMouse = direcao;
     },
 
     atirar: function atirar(event) {
-        var direcao = this.calcularDirecaoMouse(event);
+        var direcao = this._direcaoMouse;
         var disparo = cc.instantiate(this.tiro);
         disparo.getComponent("Tiro").iniciliza(this.node.parent, this._posicaoArma.position.add(this.node.position), direcao);
 

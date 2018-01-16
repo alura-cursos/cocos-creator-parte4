@@ -22,7 +22,8 @@ cc.Class({
         _movimentacao: cc.Component,
         _controleAnimacao: cc.Component,
         _gameOver: cc.Node,
-        _tempoRestanteParaVagar: cc.Float
+        _tempoRestanteParaVagar: cc.Float,
+        _atacando: cc.Boolean
 
     },
 
@@ -33,25 +34,28 @@ cc.Class({
 
         this.alvo = cc.find("Personagens/Personagem");
         this.node.on("SofrerDano", this.sofrerDano, this);
-        this._cronometroAtaque = this.tempoAtaque;
+
         this._tempoRestanteParaVagar = this.tempoVagar;
         this.direcaoVagar = cc.Vec2.UP;
 
         this._vidaAtual = this.vidaMaxima;
+        this._atacando = false;
     },
 
     update: function update(deltaTime) {
-        this._cronometroAtaque -= deltaTime;
-        this._tempoRestanteParaVagar -= deltaTime;
-        var direcaoAlvo = this.alvo.position.sub(this.node.position);
-        var distancia = direcaoAlvo.mag();
+        if (!this._atacando) {
+            this._cronometroAtaque -= deltaTime;
+            this._tempoRestanteParaVagar -= deltaTime;
+            var direcaoAlvo = this.alvo.position.sub(this.node.position);
+            var distancia = direcaoAlvo.mag();
 
-        if (distancia < this.distanciaAtaque && this._cronometroAtaque < 0) {
-            this.atacar();
-        } else if (distancia < this.distanciaPerseguir) {
-            this.andar(direcaoAlvo);
-        } else {
-            this.vagar();
+            if (distancia < this.distanciaAtaque) {
+                this.iniciarAtaque(direcaoAlvo);
+            } else if (distancia < this.distanciaPerseguir) {
+                this.andar(direcaoAlvo);
+            } else {
+                this.vagar();
+            }
         }
     },
     andar: function andar(direcao) {
@@ -59,9 +63,14 @@ cc.Class({
         this._movimentacao.setDirecao(direcao);
         this._movimentacao.andarPraFrente();
     },
-    atacar: function atacar() {
+    iniciarAtaque: function iniciarAtaque(direcao) {
+        this._controleAnimacao.mudaAnimacao(direcao, "Atacar");
+        this._atacando = true;
+    },
+    atacar: function atacar(direcao) {
         this.alvo.emit("SofreDano", { dano: this.dano });
-        this._cronometroAtaque = this.tempoAtaque;
+
+        this._atacando = false;
     },
 
     vagar: function vagar() {

@@ -917,7 +917,12 @@
     "_canvas": null,
     "_camera": null,
     "_posicaoArma": null,
-    "_audioTiro": null
+    "_audioTiro": null,
+    "_direcaoMouse": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    }
   },
   {
     "__type__": "9d4cb8EmZNF+Ih0N1m0amIH",
